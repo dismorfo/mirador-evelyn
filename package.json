@@ -20,7 +20,8 @@
     "test:watch": "nwb test-react --server"
   },
   "peerDependencies": {
-    "react": "16.x"
+    "react": "16.x || 17.x || 18.x",
+    "react-dom": "16.x || 17.x || 18.x"
   },
   "devDependencies": {
     "nwb": "0.25.x",
@@ -33,5 +34,10 @@
   "repository": "",
   "keywords": [
     "react-component"
-  ]
+  ],
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.12"
+  }
 }
